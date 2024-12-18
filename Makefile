@@ -1,5 +1,5 @@
-SRCS = ft_isalpha.c ft_isdigit.c ft_isalnum.c ft_isascii.c ft_isprint.c ft_strlen.c ft_strlcpy.c \
-	ft_strlcat.c ft_toupper.c ft_tolower.c ft_strchr.c
+SRCS = ./srcs/ft_isalpha.c ./srcs/ft_isdigit.c ./srcs/ft_isalnum.c ./srcs/ft_isascii.c ./srcs/ft_isprint.c ./srcs/ft_strlen.c ./srcs/ft_strlcpy.c \
+	./srcs/ft_strlcat.c ./srcs/ft_toupper.c ./srcs/ft_tolower.c ./srcs/ft_strchr.c ./srcs/ft_strrchr.c ./srcs/ft_strncmp.c
 
 OBJS = $(SRCS:.c=.o)
 
