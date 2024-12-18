@@ -13,6 +13,13 @@ int	ft_isprint(int c); // check if c is printable charachter.
 // memory manipulation.
 
 // string manipulation.
-size_t ft_strlen(char *str);
+size_t 	ft_strlen(const char *str);
+size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize);
+size_t	ft_strlcat(char *dst, const char *src, size_t dstsize);
+char	*ft_strchr(const char *s, int c);
+
+// char manipulationn.
+int	ft_toupper(int c);
+int	ft_tolower(int c);
 
 #endif

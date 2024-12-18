@@ -1,7 +1,8 @@
-#include "libft.h"
 #include <stdio.h>
+#include <ctype.h>
+# include "libft.h"
 
- int 	main()
- {
-	printf("%d\n", ft_strlen("hellodfd"));
- }
+int main()
+{
+	printf("%s\n",ft_strchr("hello", "")
+}
