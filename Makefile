@@ -3,7 +3,7 @@ SRCS = ./srcs/ft_isalpha.c ./srcs/ft_isdigit.c ./srcs/ft_isalnum.c ./srcs/ft_isa
 
 OBJS = $(SRCS:.c=.o)
 
-HEADER = libft.h
+HEADER = includes/libft.h
 
 CC = cc
 
