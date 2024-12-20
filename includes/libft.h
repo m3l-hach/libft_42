@@ -2,6 +2,7 @@
 # define LIBFT_H
 
 # include <stdlib.h>
+# include <limits.h>
 
 // define types.
 int	ft_isalpha(int c); // check if c is alphabet.
@@ -16,7 +17,8 @@ void	ft_bzero(void *ptr, size_t n); // set n bytes from ptr to '\0'
 void	*ft_memcpy(void *dst, const void *src, size_t n); // copy n bytes from src to dst.
 void	*ft_memmove(void *dst, const void *src, size_t n); // copy n bytes from src to dst, handling overlap.
 void	*ft_memchr(const void *ptr, int c, size_t n); // search the first instance of c in n bytes from ptr.
-
+int		ft_memcmp(const void *p1, const void *p2, size_t n); // compares first n bytes from p1 and p2;
+void	*ft_calloc(size_t nmemb, size_t size); // allocate and clear.
 
 // string manipulation.
 size_t 	ft_strlen(const char *str); // give lenght of a string.
